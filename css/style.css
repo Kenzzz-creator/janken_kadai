@@ -35,11 +35,8 @@
 }
 
 
-
-.player-title,
-.robot-title {
-    font-size: 36px;
-    margin: 0px;
+.big-hand {
+    font-size: 80px;
 }
 
 .player-hand,

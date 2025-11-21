@@ -67,8 +67,10 @@ $(".hand-btn").on("click", function () {
     var robot = Math.floor(Math.random() * 3);
 
     // --- 画面に手を表示 ---
-    $(".sazae").text(hands[player]);
-    $(".robot").text(hands[robot]);
+   
+    $(".sazae").text(hands[player]).addClass("big-hand");
+    $(".robot").text(hands[robot]).addClass("big-hand");
+
 
     // --- 既存の結果を消す ---
     $("#result-area").empty();
