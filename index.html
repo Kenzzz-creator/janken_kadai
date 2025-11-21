@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1 class="title">じゃんけん大会</h1>
+
+    <h2 class="your_choice">あなたの手を選んでください</h2>
+    
+    <div class="hand">
+    <button class="hand-btn" data-hand="0">✊</button>
+    <button class="hand-btn" data-hand="1">✌️</button>
+    <button class="hand-btn" data-hand="2">✋</button>
+    </div>
+    
+<div class="janken">
+    <div class="player">
+        <h1 class="player-title">あなた</h1>
+        <div class="player-hand">❓</div>
+    </div>
+
+    <div class="robot">
+        <h1 class="robot-title">PC</h1>
+        <div class="robot-hand">❓</div>
+    </div>
+</div>
+
+
+    <!-- ここに結果が出る -->
+    <div id="result-area"></div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- JS -->
+    <script src="js/test.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+        
+.title {
+    text-align: center;
+}
+
+.your_choice{
+    text-align: center;
+}
+
+.hand{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+        
+        
+.body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.janken {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  /* ← ここを追加！ 上端を揃える */
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.janken > div {
+    display: flex;
+    flex-direction: column;   /* タイトル → ❓ を縦並び */
+    align-items: center;      /* 中身を縦方向に中央揃え */
+    text-align: center;       /* テキストも中央揃え */
+}
+
+
+
+.player-title,
+.robot-title {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.player-hand,
+.robot-hand {
+    font-size: 80px;          /* ❓ の大きさ */
+}
+
+        
+
+.hand-btn {
+    font-size: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+.result {
+    display: block;
+    margin: 30px auto;
+}
